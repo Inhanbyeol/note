@@ -28,3 +28,4 @@
 - [prompt](javascript/prompt.md)
 - [console.log](javascript/console.log.md)
 - [function](javascript/function.md)
+- [if](javascript/if.md)
