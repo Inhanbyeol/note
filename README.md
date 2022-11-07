@@ -5,8 +5,8 @@
 
 ### Categories
 
-* [HTML](#HTML)
-* [Javascript](#javascript)
+* [html](#HTML)
+* [javascript](#javascript)
 
 ---
 
