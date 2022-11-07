@@ -5,7 +5,8 @@
 
 ### Categories
 
-* [html](#HTML)
+* [HTML](#HTML)
+* [HTML-Template](#HTML-Template)
 * [javascript](#javascript)
 
 ---
@@ -26,4 +27,4 @@
 - [confirm](javascript/confirm.md)
 - [prompt](javascript/prompt.md)
 - [console.log](javascript/console.log.md)
-- [function.log](javascript/function.md)
+- [function](javascript/function.md)
