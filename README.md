@@ -5,5 +5,5 @@
 
 ### 카테고리
 
-* [HTML](#HTML)
-* [Javascript](#Javascript)
+* [HTML](#html)
+* [Javascript](#javascript)
