@@ -12,9 +12,11 @@
 
 ### HTML
 
-- [jquery library](html/import-library-jquery.md)
+- [import jquery library](html/import-library-jquery.md)
 - [import css file](html/import-file-css.md)
 - [import js file](html/import-file-js'.md)
+
+- [getbootstrap template](html/template/bootstrap-template.md)
 
 ### Javascript
 
