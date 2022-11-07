@@ -30,3 +30,4 @@
 - [function](javascript/function.md)
 - [if](javascript/if.md)
 - [comparison operator](javascript/comparison-operator.md)
+- [var, let, const](javascript/var-let-const.md.md)
