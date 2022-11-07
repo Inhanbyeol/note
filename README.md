@@ -33,3 +33,4 @@
 - [for](javascript/for.md)
 - [comparison operator](javascript/comparison-operator.md)
 - [var, let, const](javascript/var-let-const.md.md)
+- [test](javascript/test.md)
