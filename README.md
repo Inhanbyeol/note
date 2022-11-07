@@ -23,6 +23,7 @@
 
 ### Javascript
 
+- [new Set](javascript/Set.md)
 - [alert](javascript/alert.md)
 - [confirm](javascript/confirm.md)
 - [prompt](javascript/prompt.md)
