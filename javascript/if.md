@@ -6,15 +6,16 @@
 let a = 1
 let b = 2
 
-if(a=b) {
+if(a==b) {
 
-  //true
+  console.log('true')
   
 } else {
 
-  //false
+  console.log('false')
   
 }
 
-//result : false
+//false
+
 ```
