@@ -2,6 +2,6 @@
  
 ```html
 <head>
-  <script src="./static/name.js"></script>
+  <script src="./script.js"></script>
 </head>
 ```
