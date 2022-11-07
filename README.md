@@ -6,7 +6,7 @@
 ### Categories
 
 * [HTML](#HTML)
-* [HTML-Template](#HTML-Template)
+* [HTML-Templates](#HTML-Templates)
 * [javascript](#javascript)
 
 ---
@@ -17,9 +17,9 @@
 - [import css file](html/import-file-css.md)
 - [import js file](html/import-file-js'.md)
 
-### HTML-Template
+### HTML-Templates
 
-- [bootstrap template](html/template/bootstrap-template.md)
+- [bootstrap template](html/templates/bootstrap-template.md)
 
 ### Javascript
 
