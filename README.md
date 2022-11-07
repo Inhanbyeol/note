@@ -12,9 +12,9 @@
 
 ### HTML
 
-- [import jquery library](HTML/import 'jquery library'.md)
-- [import css file](HTML/import 'css file'.md)
-- [import js file](import 'js file'.md)
+- [jquery library](html/import-library-jquery.md)
+- [import css file](html/import-file-css.md)
+- [import js file](html/import-file-js'.md)
 
 ### Javascript
 
