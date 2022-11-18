@@ -15,7 +15,7 @@
 
 - [import jquery library](html/import-library-jquery.md)
 - [import css file](html/import-file-css.md)
-- [import js file](html/import-file-js'.md)
+- [import js file](html/import-file-js.md)
 
 ### HTML-Templates
 
@@ -31,5 +31,5 @@
 - [function](javascript/function.md)
 - [if](javascript/if.md)
 - [for](javascript/for.md)
-- [comparison operator](javascript/comparison-operator.md)
-- [var, let, const](javascript/var-let-const.md.md)
+- [comparison operator | JavaScript의 자료형과 JavaScript만의 특성은 무엇일까 ?](javascript/comparison-operator.md)
+- [var, let, const | 호이스팅과 TDZ는 무엇일까 ? ](javascript/var-let-const.md)
