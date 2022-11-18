@@ -1,4 +1,4 @@
-# Execution context(실행 컨텍스트)
+# Execution context
    
    
 자바스크립트 코드가 실행되는 환경을 의미한다.
