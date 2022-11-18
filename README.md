@@ -53,7 +53,7 @@
 
 ### 호이스팅과 TDZ는 무엇일까 ?
 - [스코프, 호이스팅, TDZ](javascript/Scope-Hoisting-TDZ.md)
-- [함수 선언문과 함수 표현식에서 호이스팅 방식의 차이](javascript/Function- Declarations-and-Expressions.md)
+- [함수 선언문과 함수 표현식에서 호이스팅 방식의 차이](javascript/Function-Declarations-and-Expressions.md)
 - [여러분이 많이 작성해온 let, const, var, function 이 어떤 원리로 실행되는지 알 수 있어요.](javascript/var-let-const.md)
 - [실행 컨텍스트와 콜 스택](javascript/Execution-context-call-stack.md)
 - [스코프 체인, 변수 은닉화](javascript/Scope-Chain-and-variable-shadowing.md)
