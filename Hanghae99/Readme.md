@@ -16,9 +16,7 @@ foo = true // foo가 이제 불리언
 추가로, 자동 형변환이 아닌, 형변환의 의도를 갖고 원하는 타입으로 변경할 수 있습니다.
 
 
-- 자동 형변환 예시
-
-  숫자 자료형을 가진 값에 자동 형변환이 적용되는 경우, 문자열로 변환이 가능하다고 여겨 '10' === '10' 처럼 동작한다고 이해하면 됩니다.
+- 자동 형 변환 예시
 ```js
 let a = 10
 let b = '10'
@@ -26,8 +24,8 @@ let b = '10'
 a == b // true
 a === b // false
 ```
-
-- 수동 형변환 예시
+         
+- 명시적 형 변환 예시
 ```js
 parseInt(val)    //문자를 정수형 숫자로 변환해줌
 parseFloat(val)     //문자를 실수형 숫자로 변환해줌
@@ -73,4 +71,41 @@ let b = "99.9a9"    //문자열 99.9a9
 
   Number(a)    //숫자형 NaN
   Number(b)    //숫자형 NaN
+```
+```js
+var trans = 100; //Number
+
+Object(trans); //100
+console.log(typeof trans); //Number
+toString(trans); //”100"
+console.log(typeof trans); //String
+Boolean(trans); //true
+console.log(typeof trans); //Bolean
+```
+
+- 산술연산자
+  더하기(+) 연산자는 숫자보다 문자열이 우선시 되기 때문에, 숫자형이 문자형을 만나면 문자형으로 변환하여 연산된다.
+```js
+number + number // number
+number + string // string
+string + string // string
+string + boolean // string
+number + boolean // number
+50 + 50; //100
+100 + “점”; //”100점”
+“100” + “점”; //”100점”
+“10” + false; //”100"
+99 + true; //100
+```
+  다른 연산자(- * / %)는 숫자형이 문자형보다 우선시되기 때문에 더하기와 같은 문자형으로의 변환이 일어나지 않는다.
+
+```js
+/다른 연산자(-,*,/,%)
+string * number // number
+string * string // number
+number * number // number
+string * boolean //number
+number * boolean //number
+“2” * false; //0
+2 * true; //2
 ```
