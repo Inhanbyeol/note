@@ -1,4 +1,4 @@
-# comparison operator
+# Equality comparisons and sameness
 
 ### ==
 - 왼쪽 피연산자와 오른쪽 피연산자의 값이 같으면 참을 반환함
