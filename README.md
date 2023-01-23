@@ -3,14 +3,6 @@
 
 ---
 
-### Categories
-
-* [HTML](#HTML)
-* [HTML-Templates](#HTML-Templates)
-* [javascript](#javascript)
-
----
-
 ### HTML
 
 - [import jquery library](html/import-library-jquery.md)
