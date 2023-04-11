@@ -27,7 +27,7 @@
 - [var, let, const](javascript/var-let-const.md)
 
 
-# 항해99 과제용
+# 내일배움캠프 과제용
 
 ### JavaScript의 자료형과 JavaScript만의 특성은 무엇일까 ?
 
