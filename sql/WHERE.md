@@ -7,6 +7,7 @@
   SELECT * FROM tablename
     WHERE colname1 = '홍길동'
 ```
+<br/>
 
 ### AND
 - colname1에 '홍길동' colname2에 '30'이라는 데이터가 입력된 row 출력
@@ -15,6 +16,7 @@
   SELECT * FROM tablename
     WHERE colname1 = '홍길동' AND colname2 = 30
 ```
+<br/>
 
 ### OR
 - colname1에 '홍길동' 혹은 '김철수'라는 데이터가 입력된 row 출력
@@ -23,7 +25,7 @@
   SELECT * FROM tablename
     WHERE colname1 = '홍길동' OR colname1 = '김철수'
 ```
-
+<br/>
 
 ### LIKE
 - colname1에 '홍'으로 시작하는 데이터가 입력된 row 출력
@@ -53,6 +55,7 @@
   SELECT * FROM tablename
     WHERE colname1 LIKE '홍__'
 ```
+<br/>
 
 ### NOT LIKE
 
@@ -75,4 +78,15 @@
 ```sql
   SELECT * FROM tablename
     WHERE colname1 NOT LIKE '%동'
+```
+
+<br/>
+
+### REGEXP_LIKE
+
+- 정규식을 통한 LIKE 문 활용
+
+```sql
+  SELECT * FROM tablename
+    WHERE REGEXP_LIKE(colname1, '정규식')
 ```
