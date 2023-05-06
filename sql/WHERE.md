@@ -23,3 +23,40 @@
   SELECT * FROM tablename
     WHERE colname1 = '홍길동' or colname1 = '김철수'
 ```
+
+
+### like
+- colname1에 '홍'으로 시작하는 데이터가 입력된 row 출력
+
+```sql
+  SELECT * FROM tablename
+    WHERE colname1 LIKE '홍%'
+```
+
+- colname1에 '길'이라는 문자를 포함한 데이터가 입력된 row 출력
+
+```sql
+  SELECT * FROM tablename
+    WHERE colname1 LIKE '%길%'
+```
+
+- colname1에 '동'으로 끝나는 데이터가 입력된 row 출력
+
+```sql
+  SELECT * FROM tablename
+    WHERE colname1 LIKE '%동'
+```
+
+- colname1에 '홍'으로 시작하는 n자리(_기호 개수) 문자열 데이터가 입력된 row 출력
+
+```sql
+  SELECT * FROM tablename
+    WHERE colname1 LIKE '홍__'
+```
+
+- colname1에 '홍'으로 시작하지 않는 데이터가 입력된 row 출력
+
+```sql
+  SELECT * FROM tablename
+    WHERE colname1 NOT LIKE '홍%'
+```
