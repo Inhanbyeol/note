@@ -8,7 +8,7 @@
     WHERE colname1 = '홍길동'
 ```
 
-
+### and
 - colname1에 '홍길동' colname2에 '30'이라는 데이터가 입력된 row 출력
 
 ```sql
@@ -16,6 +16,7 @@
     WHERE colname1 = '홍길동' and colname2 = 30
 ```
 
+### or
 - colname1에 '홍길동' 혹은 '김철수'라는 데이터가 입력된 row 출력
 
 ```sql
