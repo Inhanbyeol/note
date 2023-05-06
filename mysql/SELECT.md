@@ -1,4 +1,6 @@
-# SELECT
+# WHERE
+
+[SELECT](sql/SELECT.md) 문법에 출력 조건을 줄 수 있는 문법 
 
 특정 테이블 전체 출력
 ```sql
