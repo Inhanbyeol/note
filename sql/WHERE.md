@@ -62,3 +62,17 @@
   SELECT * FROM tablename
     WHERE colname1 NOT LIKE '홍%'
 ```
+
+- colname1에 '길'이라는 문자를 포함하지 않은 데이터가 입력된 row 출력
+
+```sql
+  SELECT * FROM tablename
+    WHERE colname1 NOT LIKE '%길%'
+```
+
+- colname1에 '동'으로 끝나지 않는 데이터가 입력된 row 출력
+
+```sql
+  SELECT * FROM tablename
+    WHERE colname1 NOT LIKE '%동'
+```
