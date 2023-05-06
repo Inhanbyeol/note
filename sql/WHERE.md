@@ -8,24 +8,24 @@
     WHERE colname1 = '홍길동'
 ```
 
-### and
+### AND
 - colname1에 '홍길동' colname2에 '30'이라는 데이터가 입력된 row 출력
 
 ```sql
   SELECT * FROM tablename
-    WHERE colname1 = '홍길동' and colname2 = 30
+    WHERE colname1 = '홍길동' AND colname2 = 30
 ```
 
-### or
+### OR
 - colname1에 '홍길동' 혹은 '김철수'라는 데이터가 입력된 row 출력
 
 ```sql
   SELECT * FROM tablename
-    WHERE colname1 = '홍길동' or colname1 = '김철수'
+    WHERE colname1 = '홍길동' OR colname1 = '김철수'
 ```
 
 
-### like
+### LIKE
 - colname1에 '홍'으로 시작하는 데이터가 입력된 row 출력
 
 ```sql
@@ -53,6 +53,8 @@
   SELECT * FROM tablename
     WHERE colname1 LIKE '홍__'
 ```
+
+### NOT LIKE
 
 - colname1에 '홍'으로 시작하지 않는 데이터가 입력된 row 출력
 
