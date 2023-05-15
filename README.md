@@ -4,7 +4,7 @@
 
 ---
 
-### sql
+### SQL
 
 - [SHOW TABLE](sql/SHOW-TABLE.md)
 - [SELECT](sql/SELECT.md)
