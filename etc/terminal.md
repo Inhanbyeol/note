@@ -4,7 +4,7 @@
 
 - 현재 디렉토리까지 경로 출력
 
-```console
+```zsh
 pwd
 ```
 
@@ -14,19 +14,19 @@ pwd
 
 - 디렉토리 이동
 
-```console
+```zsh
 cd <dirname>
 ```
 
 - 상위 디렉토리 이동
 
-```console
+```zsh
 cd ..
 ```
 
 - 홈 디렉토리 이동
 
-```console
+```zsh
 cd ~
 ```
 
@@ -36,13 +36,13 @@ cd ~
 
 - 파일 생성
 
-```console
+```zsh
 touch <filename>
 ```
 
 - 디렉토리 생성
 
-```console
+```zsh
 mkdir <dirname>
 ```
 
@@ -52,19 +52,19 @@ mkdir <dirname>
 
 - 파일 삭제
 
-```console
+```zsh
 rm <filename>
 ```
 
 - 디렉토리 포함 내부 파일 전체 삭제
 
-```console
+```zsh
 rm -rf <dirname>
 ```
 
 - 디렉토리 삭제 [비어있는 폴더]
 
-```console
+```zsh
 rmdir <dirname>
 ```
 
@@ -74,7 +74,7 @@ rmdir <dirname>
 
 - 파일 내용보기
 
-```console
+```zsh
 cat <filename>
 ```
 
@@ -84,19 +84,19 @@ cat <filename>
 
 - 현재 경로의 파일 및 디렉토리 조회
 
-```console
+```zsh
 ls
 ```
 
 - 현재 경로의 숨김파일 및 디렉토리 포함 조회
 
-```console
+```zsh
 ls -a
 ```
 
 - 숨김파일 및 디렉토리 포함 리스트 출력
 
-```console
+```zsh
 ls -al
 ```
 
@@ -106,7 +106,7 @@ ls -al
 
 - 문서 편집
 
-```console
+```zsh
 vi <filename>
         #a (입력모드)
         #i (입력모드)
