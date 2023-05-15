@@ -27,8 +27,6 @@
 - [var, let, const](javascript/var-let-const.md)
 
 
-# 내일배움캠프 과제용
-
 ### JavaScript의 자료형과 JavaScript만의 특성은 무엇일까 ?
 
 - [느슨한 타입(loosely typed)의 동적(dynamic) 언어](javascript/Javascript.md)
